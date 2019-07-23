@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <logo/>
+      <logo />
       <h1 class="title">
         mt-app
       </h1>
@@ -29,13 +29,13 @@
 </template>
 
 <script>
-  import Logo from '~/components/Logo.vue'
+import Logo from '~/components/Logo.vue'
 
-  export default {
-    components: {
-      Logo
-    }
+export default {
+  components: {
+    Logo
   }
+}
 </script>
 
 <style>
