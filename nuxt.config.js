@@ -23,8 +23,8 @@ module.exports = {
   */
   css: [
     'element-ui/lib/theme-chalk/reset.css',
-    'element-ui/lib/theme-chalk/index.css'
-    // '~assets/css/main.css',
+    'element-ui/lib/theme-chalk/index.css',
+    '@/assets/css/main.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -63,6 +63,7 @@ module.exports = {
         })
       }
     },
-    cache: true
+    // https://github.com/nuxt/nuxt.js/issues/3804
+    cache: false
   }
 }
