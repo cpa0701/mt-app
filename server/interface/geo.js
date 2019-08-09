@@ -2,7 +2,6 @@
  * Create by chenpengan on 2019/8/8
  */
 import Router from 'koa-router'
-import Province from '../dbs/models/province'
 import axios from './utils/axios'
 
 const router = new Router({
